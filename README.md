@@ -9,53 +9,52 @@ El proyecto se divide en tres fases principales: Exploración y Limpieza, Visual
 # Fase 1: Exploración y Limpieza
 1. Exploración Inicial
 Importación y Exploración de Datos:
-
 Importar los datos desde los archivos Customer Loyalty History.csv y Customer Flight Activity.csv.
 Utilizar funciones de Pandas (.info(), .describe(), .head(), .isnull()) para obtener una visión general de los datos, incluyendo la estructura, valores nulos y estadísticas básicas.
 Unión de Conjuntos de Datos:
-
 Identificar una clave común entre los dos conjuntos de datos y realizar una unión de los mismos de manera eficiente utilizando merge de Pandas.
+
 2. Limpieza de Datos
 Tratamiento de Valores Nulos:
-
 Identificar columnas con valores nulos y decidir una estrategia de tratamiento (eliminación o imputación) para asegurar la integridad de los datos.
+
 Verificación de Consistencia:
-
 Asegurar que los datos sean coherentes y corregir cualquier inconsistencia detectada.
-Ajustes y Conversión de Tipos de Datos:
 
+Ajustes y Conversión de Tipos de Datos:
 Realizar cualquier ajuste o conversión necesaria en las columnas para garantizar que los datos estén en un formato adecuado para el análisis.
 
 # Fase 2: Visualización
 Utilizando herramientas de visualización (como Matplotlib y Seaborn), se generarán las siguientes gráficas para responder preguntas específicas sobre los datos:
 
 Distribución de Vuelos Reservados por Mes:
-
 ¿Cómo se distribuye la cantidad de vuelos reservados por mes durante el año?
+
 Relación entre Distancia de Vuelos y Puntos Acumulados:
-
 ¿Existe una relación entre la distancia de los vuelos y los puntos acumulados por los clientes?
+
 Distribución de Clientes por Provincia o Estado:
-
 ¿Cuál es la distribución de los clientes por provincia o estado?
+
 Comparación del Salario Promedio entre Niveles Educativos:
-
 ¿Cómo se compara el salario promedio entre los diferentes niveles educativos de los clientes?
+
 Proporción de Clientes por Tipo de Tarjeta de Fidelidad:
-
 ¿Cuál es la proporción de clientes con diferentes tipos de tarjetas de fidelidad?
-Distribución de Clientes según Estado Civil y Género:
 
+Distribución de Clientes según Estado Civil y Género:
 ¿Cómo se distribuyen los clientes según su estado civil y género?
 
 # Fase 3: Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
-9. Preparación de Datos
+Preparación de Datos
 Filtrado de Datos:
 Filtrar el conjunto de datos para incluir únicamente las columnas relevantes: 'Flights Booked' y 'Education'.
-10. Análisis Descriptivo
+
+Análisis Descriptivo
 Cálculo de Estadísticas Descriptivas:
 Agrupar los datos por nivel educativo y calcular estadísticas descriptivas básicas (como el promedio, la desviación estándar y los percentiles) del número de vuelos reservados para cada grupo.
-11. Prueba Estadística
+
+Prueba Estadística
 A/B Testing:
 Realizar una prueba estadística (como una ANOVA o t-test) para determinar si existe una diferencia significativa en el número de vuelos reservados entre los diferentes niveles educativos.
 
@@ -67,7 +66,6 @@ Seaborn
 Scipy/Statsmodels (para pruebas estadísticas)
 Instrucciones para la Ejecución
 Clonar el repositorio:
-
 git clone <URL_DEL_REPOSITORIO>
 cd <NOMBRE_DEL_REPOSITORIO>
 
