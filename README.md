@@ -1,12 +1,12 @@
 # Promo-H-DA-modulo3-evaluacion-final-FernandaMarti
-Proyecto de Análisis de Datos de Clientes de Aerolíneas
-Descripción del Proyecto
+## Proyecto de Análisis de Datos de Clientes de Aerolíneas
+### Descripción del Proyecto
 Este proyecto tiene como objetivo explorar y analizar datos relacionados con la actividad de vuelo y la lealtad de los clientes de una aerolínea. Se busca identificar patrones, tendencias y relaciones significativas en los datos, así como evaluar diferencias en la cantidad de vuelos reservados según el nivel educativo de los clientes.
 
-Fases del Proyecto
+# Fases del Proyecto
 El proyecto se divide en tres fases principales: Exploración y Limpieza, Visualización y Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo.
 
-Fase 1: Exploración y Limpieza
+# Fase 1: Exploración y Limpieza
 1. Exploración Inicial
 Importación y Exploración de Datos:
 
@@ -25,7 +25,8 @@ Asegurar que los datos sean coherentes y corregir cualquier inconsistencia detec
 Ajustes y Conversión de Tipos de Datos:
 
 Realizar cualquier ajuste o conversión necesaria en las columnas para garantizar que los datos estén en un formato adecuado para el análisis.
-Fase 2: Visualización
+
+# Fase 2: Visualización
 Utilizando herramientas de visualización (como Matplotlib y Seaborn), se generarán las siguientes gráficas para responder preguntas específicas sobre los datos:
 
 Distribución de Vuelos Reservados por Mes:
@@ -46,7 +47,8 @@ Proporción de Clientes por Tipo de Tarjeta de Fidelidad:
 Distribución de Clientes según Estado Civil y Género:
 
 ¿Cómo se distribuyen los clientes según su estado civil y género?
-Fase 3: Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
+
+# Fase 3: Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
 9. Preparación de Datos
 Filtrado de Datos:
 Filtrar el conjunto de datos para incluir únicamente las columnas relevantes: 'Flights Booked' y 'Education'.
@@ -56,7 +58,8 @@ Agrupar los datos por nivel educativo y calcular estadísticas descriptivas bás
 11. Prueba Estadística
 A/B Testing:
 Realizar una prueba estadística (como una ANOVA o t-test) para determinar si existe una diferencia significativa en el número de vuelos reservados entre los diferentes niveles educativos.
-Herramientas Utilizadas
+
+# Herramientas Utilizadas
 Python 3
 Pandas
 Matplotlib
@@ -65,23 +68,15 @@ Scipy/Statsmodels (para pruebas estadísticas)
 Instrucciones para la Ejecución
 Clonar el repositorio:
 
-bash
-Copiar código
 git clone <URL_DEL_REPOSITORIO>
 cd <NOMBRE_DEL_REPOSITORIO>
+
 Instalar las dependencias necesarias:
-
-bash
-Copiar código
 pip install -r requirements.txt
-Ejecutar el script principal:
 
-bash
-Copiar código
-python main.py
-Notas Adicionales
+#Notas Adicionales
 Asegúrate de tener instaladas todas las librerías necesarias listadas en el archivo requirements.txt.
-Los resultados y visualizaciones generadas se guardarán en la carpeta output.
+
 Contribución
 Si deseas contribuir a este proyecto, por favor crea un fork del repositorio y realiza un pull request con tus mejoras y/o sugerencias.
 
@@ -89,6 +84,6 @@ Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Puedes ver más detalles en el archivo LICENSE.
 
 Contacto
-Para cualquier consulta, por favor contacta a [jaggermarti80@gmail.com].
+Para cualquier consulta, por favor contacta a jaggermarti80@gmail.com.
 
 ¡Gracias por tu interés en este proyecto!
