@@ -2,6 +2,7 @@
 ## Proyecto de Análisis de Datos de Clientes de Aerolíneas
 ## Descripción del Proyecto
 Este proyecto tiene como objetivo explorar y analizar datos relacionados con la actividad de vuelo y la lealtad de los clientes de una aerolínea. Se busca identificar patrones, tendencias y relaciones significativas en los datos, así como evaluar diferencias en la cantidad de vuelos reservados según el nivel educativo de los clientes.
+## 
 
 ## Fases del Proyecto
 El proyecto se divide en tres fases principales: Exploración y Limpieza, Visualización y Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo.
@@ -64,6 +65,39 @@ Realizar una prueba estadística (como una ANOVA o t-test) para determinar si ex
 - Matplotlib
 - Seaborn
 - Scipy/Statsmodels (para pruebas estadísticas)
+
+### Diccionario de Datos
+
+A continuación, se presenta una descripción de las columnas presentes en el conjunto de datos:
+
+| Columna                       | Descripción                                                                                 |
+|-------------------------------|---------------------------------------------------------------------------------------------|
+| `Loyalty Number`              | Número de fidelidad del cliente                                                            |
+| `Year`                        | Año de la transacción o actividad                                                           |
+| `Month`                       | Mes de la transacción o actividad                                                           |
+| `Flights Booked`              | Número de vuelos reservados                                                                |
+| `Flights with Companions`     | Número de vuelos reservados con acompañantes                                               |
+| `Total Flights`               | Número total de vuelos reservados                                                          |
+| `Distance`                    | Distancia total recorrida en los vuelos                                                    |
+| `Points Accumulated`          | Puntos de fidelidad acumulados                                                             |
+| `Points Redeemed`             | Puntos de fidelidad canjeados                                                              |
+| `Dollar Cost Points Redeemed` | Costo en dólares de los puntos canjeados                                                   |
+| `Country`                     | País de residencia del cliente                                                             |
+| `Province`                    | Provincia o estado de residencia del cliente                                               |
+| `City`                        | Ciudad de residencia del cliente                                                           |
+| `Postal Code`                 | Código postal de residencia del cliente                                                    |
+| `Gender`                      | Género del cliente                                                                         |
+| `Education`                   | Nivel educativo del cliente                                                                |
+| `Salary`                      | Salario del cliente                                                                        |
+| `Marital Status`              | Estado civil del cliente                                                                   |
+| `Loyalty Card`                | Tipo de tarjeta de fidelidad del cliente                                                   |
+| `CLV`                         | Valor de vida del cliente (Customer Lifetime Value)                                        |
+| `Enrollment Type`             | Tipo de inscripción del cliente                                                            |
+| `Enrollment Year`             | Año de inscripción del cliente en el programa de fidelidad                                 |
+| `Enrollment Month`            | Mes de inscripción del cliente en el programa de fidelidad                                 |
+| `Cancellation Year`           | Año de cancelación del cliente del programa de fidelidad                                   |
+| `Cancellation Month`          | Mes de cancelación del cliente del programa de fidelidad                                   |
+
 
 ### Instrucciones para la Ejecución
 - Clonar el repositorio:
